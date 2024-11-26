@@ -32,7 +32,6 @@ html body{
     line-height: 80px;
     padding: 0px 50px;
     
-    
 }
 a b{
   text-decoration: none;
@@ -52,7 +51,7 @@ ul li {
 }
 ul li a {
     color: white;
-    text-size:17px;
+    font-size:17px;
     text-transform: uppercase;
 }
 .container{

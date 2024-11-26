@@ -50,7 +50,7 @@ ul li {
 }
 ul li a {
     color: white;
-    text-size:17px;
+    font-size:17px;
     text-transform: uppercase;
 }
 .resfield {
