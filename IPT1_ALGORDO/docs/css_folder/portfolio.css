@@ -1,0 +1,114 @@
+html body{
+    height: 100%;
+    margin: 0px;
+}
+* {
+     padding:0px;
+     margin: 0px;
+     text-decoration: none;
+     list-style: none;
+     box-sizing: border-box;
+ }
+ body {
+     background-image: url("/docs/images/background.jpg");
+     background-repeat: no-repeat;
+     background-attachment: fixed;
+     background-size: cover;
+     background-position: center;
+ }
+ 
+ .divbar {
+     list-style: none;
+     display: space-between;
+     
+ }
+.navbar {
+  background-image: linear-gradient(to bottom right, red, black);
+    width:100%;
+    height: 80px;
+    color: white;
+    font-family:DejaVu Sans Mono, monospace ;
+    font-size: 20px;
+    line-height: 80px;
+    padding: 0px 50px;
+    
+    
+}
+a b{
+  text-decoration: none;
+  color: white;
+  font-size: 25;
+}
+ul {
+    
+    float: right;
+    margin-right: 15px;
+} 
+ul li {
+    display: inline-block;
+    line-height: 80px;
+    margin: 0px 9px;
+    
+}
+ul li a {
+    color: white;
+    text-size:17px;
+    text-transform: uppercase;
+}
+.container{
+  height: 290%;
+  margin: 10% 15px 15px 15px;
+  display:flex-start;
+  background-color: darkred;
+  
+}
+.gallery{
+  justify-content: space-between;
+  margin-left:70px;
+}
+img{
+  height:25%;
+  width:30%;
+}
+p {
+  color:white;
+  font-family: 'Courier New', Courier, monospace
+  ;
+  text-transform: uppercase;
+  
+}
+h1{
+  text-align: center;
+  color:white;
+  text-transform: uppercase;
+  font-family:'Courier New', Courier, monospace;
+  padding:20px;
+  
+  
+}
+footer{
+  background-image: linear-gradient(to bottom right, red, black);
+}
+.footernavi {
+    height:50%;
+    width:100%;
+    padding:20px 30px 25px;
+    margin-top: 50px;
+    text-align: center;
+    
+}
+.socialicon {
+  display: flex;
+  justify-content: center;
+  padding-top: 40px;
+}
+.socialicon a{
+  color: white;
+  text-decoration: none;
+  padding: 40px 20px 50px;
+  margin: 10pxpx;
+ 
+}
+.socialicon a i{
+  font-size: 35px;
+}

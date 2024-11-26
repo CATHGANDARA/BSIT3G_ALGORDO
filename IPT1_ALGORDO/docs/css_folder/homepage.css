@@ -1,0 +1,123 @@
+
+html body{
+    height: 100vh;
+    margin: 0px;
+}
+* {
+     padding:0px;
+     margin: 0px;
+     text-decoration: none;
+     list-style: none;
+     box-sizing: border-box;
+ }
+ body {
+     background-image: url("/docs/images/background.jpg");
+     background-repeat: no-repeat;
+     background-attachment: fixed;
+     background-size: cover;
+     background-position: center;
+ }
+.divbar {
+     list-style: none;
+     display: space-between;
+ }
+.navbar {
+  background-image: linear-gradient(to bottom right, red, black);
+    width:100%;
+    height: 80px;
+    color: white;
+    font-family:DejaVu Sans Mono, monospace ;
+    font-size: 20px;
+    line-height: 80px;
+    padding: 0px 50px;
+    
+}
+a b{
+  text-decoration: none;
+  color: white;
+  font-size: 25;
+}
+ul {
+    
+    float: right;
+    margin-right: 15px;
+} 
+ul li {
+    display: inline-block;
+    line-height: 80px;
+    margin: 0px 9px;
+    
+}
+ul li a {
+    color: white;
+    text-size:17px;
+    text-transform: uppercase;
+}
+.container{
+  height: 50%;
+  width:40%;
+  float: right;
+  display:flex;
+  justify-content: flex-end;
+  margin: 120px 40px 0px ;
+}
+.sidebar{
+  text-align: center;
+   padding: 80px 20px 30px 20px;
+  font-family: 'Courier New', Courier, monospace,cursive;
+  
+}
+.sidebar{
+  background-color: darkred;
+  opacity: 0.8;
+ 
+}
+h2 {
+  color:white ;
+  text-transform: uppercase ;
+  
+}
+.container1{
+  display:flex;
+  justify-content: flex-start;
+  height:70%;
+  width:50%;
+  margin: 100px 5px 0px 18px ;
+}
+.leftbar{
+  text-align: center;
+  Padding:70px 15px 0px 60px;
+}
+h1 {
+  color: white;
+  text-transform: uppercase;
+}
+p {
+  color:White;
+}
+footer{
+  background-image: linear-gradient(to bottom right, red, black);
+}
+.footernavi {
+    height:50%;
+    width:100%;
+    padding:20px 30px 25px;
+    margin-top: 50px;
+    text-align: center;
+    
+}
+.socialicon {
+  display: flex;
+  justify-content: center;
+  padding-top: 40px;
+}
+.socialicon a{
+  color: white;
+  text-decoration: none;
+  padding: 40px 20px 50px;
+  margin: 10pxpx;
+ 
+}
+.socialicon a i{
+  font-size: 35px;
+}
