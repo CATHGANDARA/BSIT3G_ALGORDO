@@ -34,7 +34,7 @@ html body{
 a b{
   text-decoration: none;
   color: white;
-  font-size: 25;
+  font-size: 25px;
 }
 ul {
     
@@ -49,7 +49,7 @@ ul li {
 }
 ul li a {
     color: white;
-    text-size:17px;
+    font-size:17px;
     text-transform: uppercase;
 }
 .contain {
