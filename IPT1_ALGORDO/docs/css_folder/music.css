@@ -10,7 +10,7 @@ html body{
      box-sizing: border-box;
  }
 body {
-     background-image: url("/docs/images/background.jpg");
+     background-image: url("/IPT1_ALGORDO/docs/images/background.jpg");
      background-repeat: no-repeat;
      background-attachment: fixed;
      background-size: cover;
